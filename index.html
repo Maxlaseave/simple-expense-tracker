@@ -13,16 +13,16 @@
 
         <div class="balance-container">
             <h2>Your Balance</h2>
-            <h1 id="balance">P0.00</h1>
+            <h1 id="balance">0.00</h1>
 
             <div class="summary">
                 <div class="income">
                     <h3>Income</h3>
-                    <p id="income-amount">P0.00</p>
+                    <p id="income-amount">0.00</p>
                 </div>
                 <div class="expenses">
                     <h3>Expenses</h3>
-                    <p id="expense-amount">P0.00</p>
+                    <p id="expense-amount">0.00</p>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
 
                      <div class="form-group">
                         <label for="amount">Amount</label>
-                        <input type="text" id="amount" placeholder="Enter amount" required>
+                        <input type="number" step="any" id="amount" placeholder="Enter amount" required>
                         <small>Use negative(-) for expenses</small>
 
                         <button type="submit">Add Transaction</button>
